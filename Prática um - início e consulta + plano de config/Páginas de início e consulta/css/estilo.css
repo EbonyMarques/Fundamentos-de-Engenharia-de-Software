@@ -1,0 +1,62 @@
+html, body {
+    background-color: #e6420d;
+    color: #ffffff;
+}
+
+.container-principal {
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+.container-secundario {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container-rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.atributos-rodape {
+    background-color: #e7e7e7;
+    font-size: 12px;
+    color: #888888;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;
+}
+
+:-ms-input-placeholder {
+    text-align: center;
+}
+
+input {
+    text-align: center
+}
+
+.form-horizontal .form-group {
+    margin-right: 0;
+}
